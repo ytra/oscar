@@ -1,0 +1,17 @@
+---
+vms:
+- name: master
+  hostname: master.ytra.local
+  box: puppetlabs/centos-7.2-64-nocm
+  roles:
+  - pe-puppet-master
+- name: first
+  hostname: first.ytra.local
+  box: puppetlabs/centos-7.2-64-nocm
+  roles:
+  - pe-puppet-agent
+- name: second
+  hostname: second.ytra.local
+  box: puppetlabs/centos-7.2-64-nocm
+  roles:
+  - pe-puppet-agent
