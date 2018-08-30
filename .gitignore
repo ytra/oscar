@@ -1,5 +1,6 @@
 .vagrant
+.idea
 config.yaml
 .pe_build
-.rpm
-.tar.gz
+*.rpm
+*.tar.gz
